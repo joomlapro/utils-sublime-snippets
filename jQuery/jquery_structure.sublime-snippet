@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[/**
+ * Custom jQuery functions
+ */
+;(function(\$, undefined) {
+	'use strict';
+
+	/**
+	 * Page Functions
+	 */
+	var page = {
+		init: function() {
+
+		}
+	};
+
+	/**
+	 * Ready, Load, Resize and Scroll Functions
+	 */
+	var onReady = {
+		init: function() {
+
+		}
+	};
+
+	var onLoad = {
+		init: function() {
+
+		}
+	};
+
+	var onResize = {
+		init: function() {
+
+		}
+	};
+
+	var onScroll = {
+		init: function() {
+
+		}
+	};
+
+	\$(document).ready(onReady.init);
+	\$(window).load(onLoad.init);
+	\$(window).resize(onResize.init);
+	\$(window).scroll(onScroll.init);
+})(jQuery);
+
+]]></content>
+	<tabTrigger>jquery_structure</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+</snippet>
