@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\${TM_FILENAME/(.*?)(\..+)/\\${1:l|L|u|U}\$1/}]]></content>
+	<tabTrigger>$fn</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+</snippet>
