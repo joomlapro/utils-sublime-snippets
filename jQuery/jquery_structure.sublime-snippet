@@ -19,7 +19,7 @@
 	 */
 	var onReady = {
 		init: function() {
-
+			page.init();
 		}
 	};
 

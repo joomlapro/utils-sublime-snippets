@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='$1', endColorstr='$2'); /* IE6 & IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='$1', endColorstr='$2')"; /* IE8 */]]></content>
+	<tabTrigger>filter-gradient</tabTrigger>
+	<scope>source.css</scope>
+</snippet>

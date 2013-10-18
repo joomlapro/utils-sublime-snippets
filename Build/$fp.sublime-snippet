@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[\${TM_FILEPATH/.+(?:controllers\/)(.+)\.\w+/PATH\\${1:l|L|u|U}\$1/}]]></content>
+	<tabTrigger>$fp</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -2,23 +2,39 @@
 	<content><![CDATA[/* iPhone retina */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {}
 
-/* Large desktop */
+/* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+}
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {}
+@media (max-width: 768px) {}
 
 /* Portrait kindle */
 @media (max-width: 600px) {}
 
-/* Landscape phones and down */
+/* Extra small devices (phones, up to 480px) */
 @media (max-width: 480px) {}
+
+/**/
+@media screen and (max-width: 400px) {}
 
 /* Portrait phones and down */
 @media (max-width: 320px) {}
+
+/* Print */
+@media print {}
 
 ]]></content>
 	<tabTrigger>mediaquery</tabTrigger>

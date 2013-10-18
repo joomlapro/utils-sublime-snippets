@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[filter: progid:DXImageTransform.Microsoft.Shadow(color='$1', Direction=${2:145}, Strength=${3:3});]]></content>
+	<tabTrigger>filter-box-shadow</tabTrigger>
+	<scope>source.css</scope>
+</snippet>

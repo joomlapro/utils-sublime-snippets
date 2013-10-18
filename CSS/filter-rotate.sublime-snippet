@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=${1:2});]]></content>
+	<tabTrigger>filter-rotate</tabTrigger>
+	<scope>source.css</scope>
+</snippet>

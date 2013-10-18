@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[filter: alpha(opacity=$1); /* IE6+ */
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=$1); /* IE6+ */
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=$1)"; /* this works in IE8 only */]]></content>
+	<tabTrigger>filter-opacity</tabTrigger>
+	<scope>source.css</scope>
+</snippet>
