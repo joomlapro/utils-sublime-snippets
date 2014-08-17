@@ -2,7 +2,7 @@
 	<content><![CDATA[/**
  * Custom jQuery functions
  */
-;(function(\$, undefined) {
+(function(\$, undefined) {
 	'use strict';
 
 	/**
